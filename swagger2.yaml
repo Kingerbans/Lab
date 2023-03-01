@@ -1,0 +1,39 @@
+{
+    "info": {
+        "version": "0.0.1",
+        "title": "Lira API",
+        "description": "testdes"
+    },
+    "paths": {
+        "/inv": {
+            "post": {
+                "summary": "Bill run",
+                "produces": [
+                    "application/json"
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Bill run"
+                    }
+                },
+                "operationId": "postInv",
+                "description": "Bill run",
+                "tags": [
+                    "inv"
+                ]
+            }
+        }
+    },
+    "produces": [
+        "application/xml",
+        "application/json",
+        "application/octet-stream",
+        "text/plain"
+    ],
+    "swagger": "2.0",
+    "host": "lira-prod.mwbsys.com",
+    "basePath": "/api"
+}
