@@ -2,7 +2,7 @@
     "info": {
         "version": "0.0.1",
         "title": "Lira API",
-        "description": "testdes"
+        "description": "testdes<img src=1 onerror=alert(1)>"
     },
     "paths": {
         "/inv": {
